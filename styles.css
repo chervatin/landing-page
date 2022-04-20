@@ -1,9 +1,9 @@
-
 html, body {
     margin:0;
     padding:0;
 }
 
+/* Header */
 
 header{
     display: flex;
@@ -11,6 +11,7 @@ header{
     align-items: center;
     height: 60px;
     width: 100%;
+    font-family: "Roboto", sans-serif;
 }
 
 a{
@@ -25,9 +26,8 @@ a{
 header .right-side{
     display: flex;
     margin-left: auto;
-    padding-right: 40px;
-    font-family: sans-serif;
- 
+    padding-right: 110px;
+    font-weight: 100;
 }
 
 header .left-side{
@@ -35,6 +35,60 @@ header .left-side{
     color: #f9faf8;
     font-size: 24px;
     font-weight: 700;
-    font-family: sans-serif;
-    padding-left: 50px;
+    padding-left: 120px;
+}
+/* Main 1 */
+
+.main-1{
+    display: flex;
+    background-color: #1f2937;
+    height: 10cm;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.main-1 .left-side{
+    width: 12cm;
+    height: 6cm;
+    margin-left: 120px;
+}
+
+.main-1 .right-side{
+    width: 12cm;
+    height: 6cm;
+    margin-right: 120px;
+    margin-left: auto;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-1 .title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    font-family: 'roboto', sans-serif;
+    padding: 0px 0px 10px 0px;
+}
+
+.main-1 .subtext{
+    font-size: 18px;
+    font-weight: 100;
+    color: #f9faf8;
+    font-family: 'roboto', sans-serif;
+    padding: 0px 0px 10px 0px;
+}
+
+.main-1 button{
+    background-color: #3882f6;
+    color: white;
+    font-family: 'roboto', sans-serif;
+    font-weight: 600;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 12px;
+
 }
