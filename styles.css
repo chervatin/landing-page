@@ -81,7 +81,7 @@ header .left-side{
     padding: 0px 0px 10px 0px;
 }
 
-.main-1 button{
+.main-1 .button{
     background-color: #3882f6;
     color: white;
     font-family: 'roboto', sans-serif;
@@ -90,5 +90,12 @@ header .left-side{
     padding: 10px 25px;
     border-radius: 8px;
     font-size: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
+.button:hover{
+    background-color: #95bbf8;
+    color: white;
 }
