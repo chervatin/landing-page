@@ -26,6 +26,10 @@ a{
     color: #e5e7eb;
 }
 
+a:hover{
+    font-weight: 400;
+}
+
 
 header .right-side{
     display: flex;
