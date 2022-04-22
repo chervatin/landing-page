@@ -3,6 +3,12 @@ html, body {
     padding:0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
 /* Header */
 
 header{
@@ -10,8 +16,9 @@ header{
     background-color: #1f2937;
     align-items: center;
     height: 60px;
-    width: 100%;
+    width: 80%;
     font-family: "Roboto", sans-serif;
+    margin:auto;
 }
 
 a{
@@ -19,15 +26,12 @@ a{
     color: #e5e7eb;
 }
 
-.links{
-    padding: 10px;
-}
 
 header .right-side{
     display: flex;
     margin-left: auto;
-    padding-right: 110px;
     font-weight: 100;
+    gap: 10px;
 }
 
 header .left-side{
@@ -35,7 +39,6 @@ header .left-side{
     color: #f9faf8;
     font-size: 24px;
     font-weight: 700;
-    padding-left: 120px;
 }
 /* Main 1 */
 
@@ -45,18 +48,18 @@ header .left-side{
     height: 10cm;
     align-items: center;
     padding: 30px 0px;
+    margin: auto;
+    width: 80%;
 }
 
 .main-1 .left-side{
     width: 12cm;
     height: 6cm;
-    margin-left: 120px;
 }
 
 .main-1 .right-side{
     width: 12cm;
     height: 6cm;
-    margin-right: 120px;
     margin-left: auto;
     background-color: grey;
     color: white;
@@ -76,7 +79,7 @@ header .left-side{
 .main-1 .subtext{
     font-size: 18px;
     font-weight: 100;
-    color: #f9faf8;
+    color: #e5e7eb;
     font-family: 'roboto', sans-serif;
     padding: 0px 0px 10px 0px;
 }
@@ -98,4 +101,51 @@ header .left-side{
 .button:hover{
     background-color: #95bbf8;
     color: white;
+}
+
+/* Main 2 */
+
+container.main-2{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    background-color: white;
+    flex: auto;
+}
+
+.main-2 .title{
+    color:#1f2937;
+    font-size: 32px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+    margin: 40px;
+}
+
+.main-2 .container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 100;
+    color: #5b5b5b;
+    font-family: 'roboto', sans-serif;
+    width: 65%;
+    flex: auto;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.main-2 .text{
+    max-width: 140px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.main-2 img{
+    border-radius: 8px;
+}
+
+.white{
+    background-color:white;
 }
